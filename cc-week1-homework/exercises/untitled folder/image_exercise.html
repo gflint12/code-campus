@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>JS Bin</title>
+</head>
+<body>
+  <div id="imgs">
+  </div>
+  
+  <script type="text/javascript">
+    
+    var imgurls =["http://cuteanimalimages.com/wp-content/uploads/2012/08/doggie.jpg", "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRxCMIKKnWGgORhQ2hxwmKV9xbDvjf0wX5-L0chQt9EOe_wZuZK",];
+    
+    var imgDiv = document.getElementById("imgs");
+    
+    for (var i =0; i < imgurls.length; i++) {
+      var img = document.createElement("img");
+      img.src = imgurls[i];
+      imgDiv.appendChild(img);
+    }
+    
+  </script>
+
+</body>
+</html>

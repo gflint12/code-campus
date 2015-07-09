@@ -1,0 +1,31 @@
+var date = new Date();
+var TimeStamp = date.toLocaleString();
+
+function CurrentTime(){
+  alert(TimeStamp);
+}
+
+console.log("Current time is:" + " " + TimeStamp);
+
+var d = new Date();
+var weekday = new Array(7);
+weekday[0]=  "Sunday";
+weekday[1] = "Monday";
+weekday[2] = "Tuesday";
+weekday[3] = "Wednesday";
+weekday[4] = "Thursday";
+weekday[5] = "Friday";
+weekday[6] = "Saturday";
+
+var n = weekday[d.getDay()];
+
+console.log("Today is:" + " " + n);
+
+var time = new Date();
+console.log(
+    ("0" + time.getHours()).slice(-2)   + ":" + 
+    ("0" + time.getMinutes()).slice(-2) + ":" + 
+    ("0" + time.getSeconds()).slice(-2));
+    
+    
+    

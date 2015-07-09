@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JS Bin</title>
+</head>
+
+<body>
+    <input placeholder="Number 1" id="num1">
+    <br>
+    <input placeholder="Number 2" id="num2">
+    <br>
+    <button id="addNum">Add Numbers</button>
+    <button id="subNum">Subtract Numbers</button>
+
+
+
+    <script type="text/javascript">
+        document.getElementById("addNum").addEventListener('click', function (event) {
+
+            var number1 = parseInt(document.getElementById("num1").value);
+
+            var number2 = parseInt(document.getElementById("num2").value);
+
+            var sum = number1 + number2;
+
+            alert(sum);
+
+
+        });
+
+        document.getElementById("subNum").addEventListener('click', function (event) {
+
+            var number1 = parseInt(document.getElementById("num1").value);
+
+            var number2 = parseInt(document.getElementById("num2").value);
+
+            var subtraction = number1 - number2;
+
+            alert(subtraction);
+
+        });
+    </script>
+
+</body>
+
+</html>
