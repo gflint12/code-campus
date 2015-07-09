@@ -1,7 +1,0 @@
-var accounts = [55, 88, 92];
-var elem1 = accounts[0];
-console.log(elem1);
-
-for (var x = 0; x < accounts.length; x++) {
-console.log(accounts[x]);
-}

@@ -1,0 +1,46 @@
+
+#container {
+   
+            margin: 0;
+            padding: 0;
+            height:100%;
+}
+
+
+#rectangle_1 {
+    width:255px;
+    height:590px;
+    background-color:#f0ad4e;
+    position: absolute; 
+    border-left: 10px; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-content: center;
+ 
+
+    
+}
+    
+#rectangle_2 {
+    width:510px;
+    height:210px; 
+    background-color:#d9534f;
+    position: absolute; 
+    right: 10px;
+    margin-top: 10px;
+    align-content: center;
+}
+
+
+#rectangle_3 {
+    width:510px;
+    height:360px;
+    background-color:#3498db;
+    position: absolute; 
+    right: 10px;
+    bottom:10px;
+    align-content: center;
+}
+
+
+    
