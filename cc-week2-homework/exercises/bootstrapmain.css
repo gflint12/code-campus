@@ -1,0 +1,12 @@
+@media only screen (max-device-width: 700px);
+    
+{
+    h1{
+        font-size:.5em;
+        color: aqua;
+    }
+
+body{
+    background:aqua;
+}
+}
