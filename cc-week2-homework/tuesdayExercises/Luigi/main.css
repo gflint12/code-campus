@@ -1,0 +1,12 @@
+
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+@font-face {
+  font-family: 'Super Mario 256';
+  src: url('http://www.fontsaddict.com/fontface/super-mario-256.ttf');
+}
