@@ -1,0 +1,14 @@
+#chooseSection{
+    background: white;
+}
+
+.charSelected {
+/*    border: 5px solid yellow;*/
+    box-shadow: inset 0 0 0 5px yellow;
+}
+
+body {
+    background: url("") no-repeat center centr fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-
